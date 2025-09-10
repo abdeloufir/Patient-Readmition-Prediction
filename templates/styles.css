@@ -1,0 +1,56 @@
+/* Base palette */
+body {
+  background: #0f172a; /* slate-900 */
+  min-height: 100vh;
+  color: #e5e7eb;      /* gray-200 */
+}
+
+/* Hero */
+.hero {
+  background:
+    radial-gradient(1200px 800px at 10% -10%, #1e293b 10%, transparent 60%),
+    radial-gradient(1000px 600px at 110% 10%, #111827 10%, transparent 60%);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Cards & forms */
+.card {
+  background: #111827; /* gray-900 */
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.form-label { color: #cbd5e1; }
+
+.form-control,
+.form-select {
+  background: #0b1220;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #e5e7eb;
+}
+
+.form-control::placeholder {
+  color: #94a3b8;
+}
+
+/* Pills */
+.nav-pills .nav-link.active {
+  background: linear-gradient(90deg, #22c55e, #06b6d4);
+  border: none;
+}
+
+/* Badges */
+.badge-soft {
+  background: rgba(34,197,94,0.15);
+  color: #86efac;
+  border: 1px solid rgba(34,197,94,0.35);
+}
+
+.badge-soft-danger {
+  background: rgba(244,63,94,0.15);
+  color: #fca5a5;
+  border: 1px solid rgba(244,63,94,0.35);
+}
+
+/* Text helpers */
+.muted { color: #94a3b8; font-size: 0.925rem; }
+.footer-note { color: #8b9bb4; font-size: 0.9rem; }
